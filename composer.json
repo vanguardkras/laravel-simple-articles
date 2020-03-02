@@ -1,0 +1,26 @@
+{
+    "name": "vanguardkras/laravel-simple-articles",
+    "description": "A very basic package for making articles management.",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Max Shaian",
+            "email": "championing@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vanguardkras\\LaravelSimpleArticles\\Http\\Providers\\SimpleArticlesServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Vanguardkras\\LaravelSimpleArticles\\": "src/"
+        }
+    }
+}
